@@ -6,4 +6,4 @@ downloading images is done automatically by importing google_images_download pac
 You can image through Command line 
 by using:-
 
-/home/raj/Pictures/Screenshot from 2019-04-11 18-38-24.png
+$ python LogoPred.py --image image_name.format
