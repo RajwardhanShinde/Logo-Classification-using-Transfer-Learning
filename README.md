@@ -7,3 +7,6 @@ You can image through Command line
 by using:-
 
 $ python LogoPred.py --image image_name.format
+
+
+![Screenshot from 2019-04-11 18-15-01](https://user-images.githubusercontent.com/36365194/56555158-a5fdc800-65b1-11e9-978d-a687aec3cf92.png)
