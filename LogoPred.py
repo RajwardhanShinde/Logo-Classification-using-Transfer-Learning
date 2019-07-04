@@ -24,13 +24,13 @@ pred = model.predict(image)
 orig = cv2.imread(args["image"]) 
 pred = pred.tolist()
 pred = pred[0]
-dogs = ["Apple", "Google", "Microsoft", "Samsung"]
+companies = ["Apple", "Google", "Microsoft", "Samsung"]
 print(pred)
 #Find the maximum probablity of a image and select that class
 lar = 0
 for i, ele in enumerate(pred):
     if ele > lar:
-        msg = dogs[i]
+        msg = companies[i]
         lar = ele 
     else:
         print("")
